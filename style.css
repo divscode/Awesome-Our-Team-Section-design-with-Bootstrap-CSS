@@ -1,0 +1,69 @@
+.custom-padding {
+    padding: 45px 0;
+    background: #dfdf;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.socials a {
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 5px;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #fff;
+	height: 30px;
+	width: 30px;
+}
+.team-area {
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+.team-area h2 {
+	text-align: center;
+	font-weight: 700;
+	margin-top: 15px;
+	color: #000;
+}
+.team-area h2 span {
+	display: block;
+	font-weight: 300;
+	margin-top: 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.socials {
+    margin-top: -27px;
+    position: relative;
+    z-index: 2;
+    border-radius: 25px;
+    background: #00c3ff;
+    text-align: center;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.socials a:hover {
+	background: #fff;
+	color: #000;
+	transition: .7s;
+}
+@media only screen and (max-width: 767px) {
+	.team-area {
+		margin-bottom: 30px;
+	}
+	.team-area img {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.team-area {
+		margin-bottom: 30px;
+	}
+	.team-area img {
+		width: 100%;
+	}
+}
